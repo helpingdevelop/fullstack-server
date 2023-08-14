@@ -9,5 +9,6 @@ RUN pnpm install
 
 COPY tsconfig.json .
 COPY src ./src
+COPY migrations ./migrations
 
 RUN pnpm run build
